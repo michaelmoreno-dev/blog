@@ -29,4 +29,11 @@ header ul li a {
   text-decoration: none;
   font-size: 35px;
 }
+
+.container {
+  border: 5px solid black;
+  margin: auto;
+  width: 70%;
+  padding: 30px 15px;
+}
 /*# sourceMappingURL=style.css.map */
