@@ -10,8 +10,22 @@ app.get('/', (req, res) => {
       title: 'test',
       content: 'test',
       date: Date.now(),
-    }
+    },
+    {
+      title: 'test',
+      content: 'test',
+      date: Date.now(),
+    },
+    {
+      title: 'test',
+      content: 'test',
+      date: Date.now(),
+    },
   ]})
+})
+
+app.get('/new', (req, res) => {
+  res.render('new.ejs')
 })
 
 app.listen(PORT, console.log('Listening on', PORT))

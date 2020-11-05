@@ -1,3 +1,7 @@
+* {
+  // border: 1px dotted grey;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -31,4 +35,26 @@ header {
   margin: auto;
   width: 70%;
   padding: 30px 15px;
+
+  .title {
+    padding: 0;
+    margin: 0;
+  }
+
+  .date {
+    padding: 0;
+    margin: 0;
+  }
+
+  .content {
+    font-size: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      height: 25px;
+    }
+  }
 }

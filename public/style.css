@@ -36,4 +36,32 @@ header ul li a {
   width: 70%;
   padding: 30px 15px;
 }
+
+.container .title {
+  padding: 0;
+  margin: 0;
+}
+
+.container .date {
+  padding: 0;
+  margin: 0;
+}
+
+.container .content {
+  font-size: 20px;
+}
+
+.container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .form input {
+  height: 25px;
+}
 /*# sourceMappingURL=style.css.map */
