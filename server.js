@@ -2,6 +2,15 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 const Article = require("./models/Articles")
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/blog', { useNewUrlParser: true, useUnifiedTopology: true });
+const db = mongoose.connection;
+
+db.on('error', console.error.bind(console, 'connectionasdf error:'));
+
+db.once('open', function () {
+  console.log("Successfully connected to MongoDB!");
+});
 
 app.use('/public', express.static('public'))
 app.use(express.urlencoded({ extended: false }))
