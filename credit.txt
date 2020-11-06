@@ -1,0 +1,2 @@
+This project was made following along a tutorial on YouTube by web dev simplified.
+https://www.youtube.com/watch?v=1NrHkjlWVhM&t=2124s&ab_channel=WebDevSimplified
