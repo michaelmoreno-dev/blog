@@ -63,5 +63,11 @@ header ul li a {
 
 .container .form input {
   height: 25px;
+  margin: 10px 0px;
+}
+
+.container .form button {
+  height: 40px;
+  margin-top: 5px;
 }
 /*# sourceMappingURL=style.css.map */
